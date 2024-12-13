@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: luongquoctay87/backend-service:init # Image that will be used to containers in the cluster
+          image: luongquoctay87/backend-service:20241213 # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           resources:
             requests:
